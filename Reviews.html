@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafsan Ahamed by 10WKTS- Marketing Service</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./dist/css/style.css" />
+  </head>
+  <body>
+    <!-- Scroll indikator -->
+    <div id="scroll-indicator">
+      <svg width="50" height="50" viewBox="0 0 100 100">
+        <circle
+          cx="50"
+          cy="50"
+          r="45"
+          stroke="#767676"
+          stroke-width="5"
+          fill="none"
+        />
+        <circle
+          id="progress-circle"
+          cx="50"
+          cy="50"
+          r="45"
+          stroke="#c4fb6d"
+          stroke-width="5"
+          fill="none"
+          stroke-dasharray="283"
+          stroke-dashoffset="283"
+        />
+        <image
+          href="./assets/icons/arrowUp.png"
+          x="30"
+          y="30"
+          height="40px"
+          width="40px"
+        />
+      </svg>
+    </div>
+
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg bg-primary-custom">
+      <div class="container">
+        <a
+          data-aos="fade-right"
+          class="navbar-brand text-white ms-2 pt-0"
+          href="#"
+        >
+          <img src="./assets/image/image1.png" style="width: 180px" alt="" />
+        </a>
+
+        <!-- Button Burger Menu -->
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas-background"></div>
+
+        <!-- Sidebar for mobile -->
+        <nav class="offcanvas-menu" id="navbarNav">
+          <div class="offcanvas-header border-0">
+            <!-- <h5 class="offcanvas-title text-black">Title</h5> -->
+            <img
+              class="offcanvas-title"
+              src="./assets/image/image1.png"
+              style="width: 130px"
+              alt=""
+            />
+            <button type="button" class="btn-close" aria-label="Close"></button>
+          </div>
+          <ul class="navbar-nav mx-3">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link font-krona-one text-uppercase text-white dropdown-toggle"
+                style="font-size: 12px"
+                href="index.html"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Home 1
+              </a>
+              <ul
+                class="dropdown-menu bg-primary-custom"
+                style="border: none"
+                aria-labelledby="navbarDropdown"
+              >
+              <li>
+                <a
+                  class="dropdown-item font-krona-one text-uppercase text-white"
+                  style="font-size: 12px"
+                  href="index.html"
+                  >Home 1</a
+                >
+              </li> 
+              <li>
+                  <a
+                    class="dropdown-item font-krona-one text-uppercase text-white"
+                    style="font-size: 12px"
+                    href="Home2.html"
+                    >Home 2</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item font-krona-one text-uppercase text-white"
+                    style="font-size: 12px"
+                    href="Home3.html"
+                    >Home 3</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item font-krona-one text-uppercase text-white"
+                    style="font-size: 12px"
+                    href="LandingPage.html"
+                    >Landing Page</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link font-krona-one text-uppercase text-white dropdown-toggle"
+                style="font-size: 12px"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul
+                class="dropdown-menu bg-primary-custom"
+                style="border: none"
+                aria-labelledby="navbarDropdown"
+              >
+                <li>
+                  <a
+                    class="dropdown-item font-krona-one text-uppercase text-white"
+                    style="font-size: 12px"
+                    href="About.html"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item font-krona-one text-uppercase text-white"
+                    style="font-size: 12px"
+                    href="Pricing.html"
+                    >Pricing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item font-krona-one text-uppercase text-white"
+                    style="font-size: 12px"
+                    href="portfolio.html"
+                    >portfolio</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item font-krona-one text-uppercase text-white"
+                    style="font-size: 12px"
+                    href="Reviews.html"
+                    >Reviews</a
+                  >
+                </li>
+                
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link font-krona-one text-uppercase text-white dropdown-toggle"
+                style="font-size: 12px"
+                href="Services.html"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul
+                class="dropdown-menu bg-primary-custom"
+                style="border: none"
+                aria-labelledby="navbarDropdown"
+              >
+                <div>
+                  <h6
+                    class="text-white font-krona-one fw-light"
+                    style="font-size: 12px"
+                  >
+                    BRANDING
+                  </h6>
+                  <a class="dropdown-item text-white" href="#">Design</a>
+                  <a class="dropdown-item text-white" href="#">Graphic</a>
+                  <a class="dropdown-item text-white" href="#">Ideas</a>
+                  <a class="dropdown-item text-white" href="#">Brainstorm</a>
+                </div>
+                <div>
+                  <h6
+                    class="text-white font-krona-one fw-light mt-3"
+                    style="font-size: 12px"
+                  >
+                    MARKETING
+                  </h6>
+                  <a class="dropdown-item text-white" href="#">Email</a>
+                  <a class="dropdown-item text-white" href="#">Content</a>
+                  <a class="dropdown-item text-white" href="#">Digital</a>
+                  <a class="dropdown-item text-white" href="#">All-in-One</a>
+                </div>
+                <div>
+                  <h6
+                    class="text-white font-krona-one fw-light mt-3"
+                    style="font-size: 12px"
+                  >
+                    STRATEGY
+                  </h6>
+                  <a class="dropdown-item text-white" href="#">Social Media</a>
+                  <a class="dropdown-item text-white" href="#">Search Engine</a>
+                  <a class="dropdown-item text-white" href="#">Social Ads</a>
+                  <a class="dropdown-item text-white" href="#">Affiliate</a>
+                </div>
+                <div>
+                  <h6
+                    class="text-white font-krona-one fw-light mt-3"
+                    style="font-size: 12px"
+                  >
+                    WEBSITE
+                  </h6>
+                  <a class="dropdown-item text-white" href="#">Web Design</a>
+                  <a class="dropdown-item text-white" href="#">Maintenance</a>
+                  <a class="dropdown-item text-white" href="#">Copywriting</a>
+                  <a class="dropdown-item text-white" href="#">Media</a>
+                </div>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link font-krona-one text-uppercase text-white"
+                style="font-size: 12px"
+                href="OurWorks.html"
+                >our works</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link font-krona-one text-uppercase text-white"
+                style="font-size: 12px"
+                href="Contact.html"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Navbar for large screens -->
+        <nav class="d-none d-lg-block py-3 transition-fade-down">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown" style="z-index: 100">
+              <a
+                class="nav-link d-flex align-items-center gap-3 text-white font-krona-one text-uppercase me-4"
+                href="index.html"
+                id="navbarDropdownLg"
+                role="button"
+                aria-expanded="false"
+                style="font-size: 12px"
+              >
+                <p class="mb-0">Home 1</p>
+                <img
+                  src="./assets/icons/IconArrowDown.png"
+                  alt="Dropdown Icon"
+                  class="dropdown-icon"
+                />
+              </a>
+              <ul
+                class="dropdown-menu bg-primary-custom"
+                style="z-index: 100"
+                aria-labelledby="navbarDropdownLg"
+              >
+                <li>
+                  <a
+                    class="dropdown-item text-white font-krona-one text-uppercase"
+                    style="font-size: 12px; z-index: 100"
+                    href="Home2.html"
+                    >Home 2</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-white font-krona-one text-uppercase"
+                    style="font-size: 12px; z-index: 100"
+                    href="Home3.html"
+                    >Home 3</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-white font-krona-one text-uppercase"
+                    style="font-size: 12px; z-index: 100"
+                    href="LandingPage.html"
+                    >Landing Page</a
+                  >
+                </li>
+                <!-- <li><hr class="dropdown-divider" /></li> -->
+              </ul>
+            </li>
+            <li class="nav-item dropdown" style="z-index: 100">
+              <a
+                class="nav-link d-flex align-items-center gap-3 text-white font-krona-one text-uppercase me-4"
+                href="#"
+                id="navbarDropdownLg"
+                role="button"
+                aria-expanded="false"
+                style="font-size: 12px"
+              >
+                <p class="mb-0">Pages</p>
+                <img
+                  src="./assets/icons/IconArrowDown.png"
+                  alt="Dropdown Icon"
+                  class="dropdown-icon"
+                />
+              </a>
+              <ul
+                class="dropdown-menu bg-primary-custom"
+                style="z-index: 100"
+                aria-labelledby="navbarDropdownLg"
+              >
+                <li>
+                  <a
+                    class="dropdown-item text-white font-krona-one text-uppercase"
+                    style="font-size: 12px; z-index: 100"
+                    href="About.html"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-white font-krona-one text-uppercase"
+                    style="font-size: 12px; z-index: 100"
+                    href="Pricing.html"
+                    >Pricing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-white font-krona-one text-uppercase"
+                    style="font-size: 12px; z-index: 100"
+                    href="portfolio.html"
+                    >portfolio</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-white font-krona-one text-uppercase"
+                    style="font-size: 12px; z-index: 100"
+                    href="Reviews.html"
+                    >Reviews</a
+                  >
+                </li>
+                
+                <!-- <li><hr class="dropdown-divider" /></li> -->
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link d-flex align-items-center gap-3 text-white font-krona-one text-uppercase me-4"
+                href="Services.html"
+                id="servicesDropdown"
+                role="button"
+                aria-expanded="false"
+                style="font-size: 12px"
+              >
+                <p class="mb-0">Services</p>
+                <img
+                  src="./assets/icons/IconArrowDown.png"
+                  alt="Dropdown Icon"
+                  class="dropdown-icon"
+                />
+              </a>
+              <div
+                class="dropdown-menu-services p-3 dropdown-services"
+                aria-labelledby="servicesDropdown"
+              >
+                <div class="row">
+                  <div class="col-lg-3">
+                    <h6 class="dropdown-header font-krona-one fw-light">
+                      BRANDING
+                    </h6>
+                    <a class="dropdown-item" href="#">Design</a>
+                    <a class="dropdown-item" href="#">Graphic</a>
+                    <a class="dropdown-item" href="#">Ideas</a>
+                    <a class="dropdown-item" href="#">Brainstorm</a>
+                  </div>
+                  <div class="col-lg-3">
+                    <h6 class="dropdown-header font-krona-one fw-light">
+                      MARKETING
+                    </h6>
+                    <a class="dropdown-item" href="#">Email</a>
+                    <a class="dropdown-item" href="#">Content</a>
+                    <a class="dropdown-item" href="#">Digital</a>
+                    <a class="dropdown-item" href="#">All-in-One</a>
+                  </div>
+                  <div class="col-lg-3">
+                    <h6 class="dropdown-header font-krona-one fw-light">
+                      STRATEGY
+                    </h6>
+                    <a class="dropdown-item" href="#">Social Media</a>
+                    <a class="dropdown-item" href="#">Search Engine</a>
+                    <a class="dropdown-item" href="#">Social Ads</a>
+                    <a class="dropdown-item" href="#">Affiliate</a>
+                  </div>
+                  <div class="col-lg-3">
+                    <h6 class="dropdown-header font-krona-one fw-light">
+                      WEBSITE
+                    </h6>
+                    <a class="dropdown-item" href="#">Web Design</a>
+                    <a class="dropdown-item" href="#">Maintenance</a>
+                    <a class="dropdown-item" href="#">Copywriting</a>
+                    <a class="dropdown-item" href="#">Media</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-white font-krona-one text-uppercase me-4"
+                style="font-size: 12px"
+                href="OurWorks.html"
+                >Our works</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white font-krona-one text-uppercase"
+                style="font-size: 12px"
+                href="Contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Reviews Section -->
+    <section
+      class="reviews-section bg-secondary-opacity-custom"
+      style="z-index: 1"
+    >
+      <div class="container-fluid overflow-hidden p-0">
+        <div class="row align-items-center">
+          <!-- left image -->
+          <div data-aos="fade-right" class="col-lg-6 pe-0">
+            <img
+              src="./assets/image/image10.PNG"
+              class="img-fluid"
+              alt="Product Image"
+            />
+          </div>
+
+          <!-- review Slider -->
+          <div class="col-lg-6 pe-0 review-ps-custom" style="width: 570px">
+            <div
+              id="reviewCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-bs-interval="3000"
+            >
+              <div class="carousel-inner">
+                <!-- Review 1 -->
+                <div class="carousel-item active">
+                  <div class="review-box p-4">
+                    <h2
+                      data-aos="fade-left"
+                      class="text-uppercase text-light mb-3 font-krona-one h2-text"
+                    >
+                      Reviews
+                    </h2>
+                    <div data-aos="fade-up" class="mb-2">
+                      <span class="text-warning tracking-wider">★ ★ ★ ★ ★</span>
+                    </div>
+                    <p
+                      data-aos="fade-up"
+                      class="text-light mb-4 sub-text-medium tracking-wider"
+                    >
+                    "We’ve been working with Rafsan Ahamed by 10wkts for the past few months, and the results have been incredible! 
+                    Their team helped us optimize our digital marketing strategy, from SEO to social media campaigns. The increase in website traffic and engagement was beyond our expectations. 
+                    They really took the time to understand our business and goals, creating a tailored plan that delivered measurable results.
+                    </p>
+                    <div data-aos="fade-up" class="d-flex align-items-center">
+                      <img
+                        src="./assets/image/profile1.png"
+                        class="rounded-circle me-3"
+                        alt="Reviewer"
+                        width="50"
+                        height="50"
+                      />
+                      <div
+                        data-aos="fade-up"
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div>
+                          <p class="mb-0 font-krona-one fw-light">
+                            SORIFUL ISLAM<br />
+                          </p>
+                          <p class="text-secondary-color mb-0">Twitter</p>
+                        </div>
+                        <img src="./assets/icons/IconBacktik.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="carousel-item">
+                  <div class="review-box p-4">
+                    <h2
+                      data-aos="fade-left"
+                      class="text-uppercase text-light mb-3 font-krona-one h2-text"
+                    >
+                      Reviews
+                    </h2>
+                    <div data-aos="fade-up" class="mb-2">
+                      <span class="text-warning tracking-wider">★ ★ ★ ★ ★</span>
+                    </div>
+                    <p
+                      data-aos="fade-up"
+                      class="text-light mb-4 sub-text-medium tracking-wider"
+                    >
+                    The branding overhaul we received from Rafsan Ahamed by 10wkts completely transformed our company image. 
+                    They created a fresh, modern brand identity that resonated with our target audience. 
+                    From the logo design to our messaging and social media presence, everything was strategically thought out. 
+                    The team is highly professional, creative, and truly knows their craft.
+                    </p>
+                    <div data-aos="fade-up" class="d-flex align-items-center">
+                      <img
+                        src="./assets/image/profile2.png"
+                        class="rounded-circle me-3"
+                        alt="Reviewer"
+                        width="50"
+                        height="50"
+                      />
+                      <div
+                        data-aos="fade-up"
+                        class="d-flex justify-content-between align-items-center w-100"
+                      >
+                        <div>
+                          <p class="mb-0 font-krona-one fw-light">
+                            AMINUL ISLAM<br />
+                          </p>
+                          <p class="text-secondary-color mb-0">Facebook</p>
+                        </div>
+                        <img src="./assets/icons/IconBacktik.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-works-section custom-padding">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-6">
+            <h2 data-aos="fade-up" class="h2-text font-krona-one">
+              WHAT THEY SAID
+            </h2>
+          </div>
+          <div class="col-lg-6">
+            <p data-aos="fade-up" class="text-light">
+              At Rafsan Ahamed by 10wkts, our clients are at the heart of everything we do. We’re proud to have worked with a diverse range 
+              of businesses and helped them achieve their digital marketing and branding goals. 
+            </p>
+            <a
+              data-aos="fade-up"
+              data-aos-delay="300"
+              href="Services.html"
+              class="text-secondary-color text-decoration-none text-uppercase font-krona-one button-text mt-3"
+            >
+              <span class="me-2 text-uppercase">all services</span>
+              <i class="fa-solid fa-arrow-right" style="color: #c4fb6d"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="row justify-content-between mt-5">
+          <div data-aos="fade-up" class="col-lg-custome mb-4">
+            <p>
+              As a small business owner, I was looking for an agency that could provide personalized service and actual results. 
+              Rafsan Ahamed by 10wkts exceeded my expectations. 
+              Their approach to digital marketing is both creative and data-driven, ensuring that we achieve our business goals.
+            </p>
+            <div class="d-flex align-items-center">
+              <img
+                src="./assets/image/profile3.png"
+                class="rounded-circle me-3"
+                alt="Reviewer"
+                width="50"
+                height="50"
+              />
+              <div
+                class="d-flex justify-content-between align-items-center w-100"
+              >
+                <div>
+                  <p class="mb-0 font-krona-one fw-light">JUWEL RANA<br /></p>
+                  <p class="text-secondary-color mb-0">Facebook</p>
+                </div>
+                <!-- <img src="./assets/icons/IconBacktik.png" alt="" /> -->
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            class="col-lg-custome mb-4"
+          >
+            <p>
+              The web design team at Rafsan Ahamed by 10wkts delivered a stunning website that reflects our brand's values and vision.  
+              The entire process was seamless and they were incredibly responsive to our feedback. 
+              I am so pleased with the final product, and the performance has been fantastic!
+            </p>
+            <div class="d-flex align-items-center">
+              <img
+                src="./assets/image/profile4.png"
+                class="rounded-circle me-3"
+                alt="Reviewer"
+                width="50"
+                height="50"
+              />
+              <div
+                class="d-flex justify-content-between align-items-center w-100"
+              >
+                <div>
+                  <p class="mb-0 font-krona-one fw-light">ANDERSTION<br /></p>
+                  <p class="text-secondary-color mb-0">Facebook</p>
+                </div>
+                <!-- <img src="./assets/icons/IconBacktik.png" alt="" /> -->
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="300"
+            class="col-lg-custome mb-4"
+          >
+            <p>
+              Working with Rafsan Ahamed by 10wkts has been a game-changer for our business.
+              especially in paid ads and social media strategy, has dramatically improved our online visibility and sales. 
+              They treat our success as their own, always going the extra mile to ensure we achieve our goals.
+            </p>
+            <div class="d-flex align-items-center">
+              <img
+                src="./assets/image/profile5.png"
+                class="rounded-circle me-3"
+                alt="Reviewer"
+                width="50"
+                height="50"
+              />
+              <div
+                class="d-flex justify-content-between align-items-center w-100"
+              >
+                <div>
+                  <p class="mb-0 font-krona-one fw-light">SAKHAWAT ALI<br /></p>
+                  <p class="text-secondary-color mb-0">Facebook</p>
+                </div>
+                <!-- <img src="./assets/icons/IconBacktik.png" alt="" /> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-between mt-lg-3">
+          <div data-aos="fade-up" class="col-lg-custome mb-4">
+            <p>
+              The team at Rafsan Ahamed by 10wkts is hands down one of the best in the business. 
+              Their creativity in campaigns combined with a strategic approach has helped us reach new customers and grow our brand presence online. 
+              with a comprehensive marketing plan that has worked wonders.
+            </p>
+            <div class="d-flex align-items-center">
+              <img
+                src="./assets/image/profile6.png"
+                class="rounded-circle me-3"
+                alt="Reviewer"
+                width="50"
+                height="50"
+              />
+              <div
+                class="d-flex justify-content-between align-items-center w-100"
+              >
+                <div>
+                  <p class="mb-0 font-krona-one fw-light">AZIM HASAN<br /></p>
+                  <p class="text-secondary-color mb-0">Facebook</p>
+                </div>
+                <!-- <img src="./assets/icons/IconBacktik.png" alt="" /> -->
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            class="col-lg-custome mb-4"
+          >
+            <p>
+              I’ve been extremely impressed with the seamless service provided by Rafsan Ahamed by 10wkts.
+              From our initial consultation to the implementation of our marketing strategy, everything has been smooth and effective.
+              They deliver on time.Its Amizing Experience Person.
+            </p>
+            <div class="d-flex align-items-center">
+              <img
+                src="./assets/image/profile7.png"
+                class="rounded-circle me-3"
+                alt="Reviewer"
+                width="50"
+                height="50"
+              />
+              <div
+                class="d-flex justify-content-between align-items-center w-100"
+              >
+                <div>
+                  <p class="mb-0 font-krona-one fw-light">Isaril Haque<br /></p>
+                  <p class="text-secondary-color mb-0">Facebook</p>
+                </div>
+                <!-- <img src="./assets/icons/IconBacktik.png" alt="" /> -->
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="300"
+            class="col-lg-custome mb-4"
+          >
+            <p>
+              The team at Rafsan Ahamed by 10wkts is incredibly talented. They took our outdated branding and turned it into a modern, 
+              cohesive identity that resonates with our audience. From the first meeting, they understood our vision and brought it to life. 
+              Good service and Frindly behavior.Thanks For support.
+            </p>
+            <div class="d-flex align-items-center">
+              <img
+                src="./assets/image/image20.png"
+                class="rounded-circle me-3"
+                alt="Reviewer"
+                width="50"
+                height="50"
+              />
+              <div
+                class="d-flex justify-content-between align-items-center w-100"
+              >
+                <div>
+                  <p class="mb-0 font-krona-one fw-light">DJ RUSSELL<br /></p>
+                  <p class="text-secondary-color mb-0">Facebook</p>
+                </div>
+                <!-- <img src="./assets/icons/IconBacktik.png" alt="" /> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 10 CTA -->
+    <section class="container custom-padding-cta">
+      <div class="bg-img-c">
+        <div class="color-cover">
+          <!-- Row -->
+          <div class="row d-flex align-items-center py-4 py-lg-0 h-100">
+            <!-- Col 1 -->
+            <div data-aos="fade-up" class="col-lg-8 px-4 px-lg-5">
+              <h2 class="text-white text-uppercase font-krona-one cta-text">
+                Ready to get started?
+              </h2>
+            </div>
+            <!-- Col 2 -->
+            <div
+              data-aos="fade-up"
+              class="col-lg-4 px-4 px-lg-5 d-flex justify-content-lg-end mt-3 mt-lg-0"
+            >
+              <a
+                class="btn-cta font-krona-one text-uppercase button-text"
+                href="Contact.html"
+              >
+                <span class="me-2">contact</span>
+                <i class="fa-solid fa-arrow-right" style="color: #232520"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Footer -->
+    <footer class="footer-section py-5">
+      <div class="container">
+        <!-- Row -->
+        <div class="row mb-5">
+          <!-- Col 1 30-->
+          <div class="col-lg-4 mb-5 mb-md-0 pe-lg-5">
+            <img
+              data-aos="fade-up"
+              src="./assets/image/image1.png"
+              class="mb-3"
+              alt=""
+            />
+            <p data-aos="fade-up" data-aos-delay="200" class="text-light my-3">
+              This is "Rafsan Ahamed by 10wkts" Digital Marketing Service.
+            </p>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="300"
+              class="d-flex gap-3 mt-5"
+            >
+              <a href="https://www.facebook.com/rafsan43210"
+                ><i class="fa-brands fa-facebook" style="color: #c4fb6d"></i
+              ></a>
+              <a href="https://www.instagram.com/rafsan_ahmed133/profilecard"
+                ><i class="fa-brands fa-instagram" style="color: #c4fb6d"></i
+              ></a>
+              <a href="https://wa.me/+8801790500666"
+                ><i class="fa-brands fa-whatsapp" style="color: #c4fb6d"></i
+              ></a>
+            </div>
+          </div>
+          <!-- Col 2 30-->
+          <div class="col-lg-4 mb-5 mb-md-0 pe-lg-5">
+            <h5
+              data-aos="fade-up"
+              class="text-uppercase mb-3 font-krona-one footer-text-h-c fw-light"
+            >
+              OFFICE
+            </h5>
+            <p
+              data-aos="fade-up"
+              data-aos-delay="200"
+              class="text-light mt-4 mb-3"
+            >
+              Mirpur, Cantonment,<br />Savar, Dhaka 1230, Bangladesh
+            </p>
+            <p
+              data-aos="fade-up"
+              data-aos-delay="200"
+              class="text-light mt-5 mb-2"
+            >
+              <i class="fa-regular fa-envelope" style="color: #c4fb6d"></i>
+              rafsanahmed43210@gmail.com
+            </p>
+            <p data-aos="fade-up" data-aos-delay="200" class="text-light">
+              <i class="fa-solid fa-phone" style="color: #c4fb6d"></i>
+              +880 183836 6863
+            </p>
+          </div>
+          <!-- Col 3 20-->
+          <div class="col-lg-2 mb-5 mb-md-0">
+            <h5
+              data-aos="fade-up"
+              class="text-uppercase mb-3 font-krona-one footer-text-h-c fw-light"
+            >
+              MENU
+            </h5>
+            <ul class="list-unstyled mt-4">
+              <li data-aos="fade-up" data-aos-delay="200" class="mb-3">
+                <a href="Services.html" class="text-light text-decoration-none">Services</a>
+              </li>
+              <li data-aos="fade-up" data-aos-delay="300" class="mb-3">
+                <a href="OurWorks.html" class="text-light text-decoration-none">Features</a>
+
+              </li>
+            </ul>
+          </div>
+          <!-- Col 4 20-->
+          <div class="col-lg-2">
+            <h5
+              data-aos="fade-up"
+              class="text-uppercase mb-3 font-krona-one footer-text-h-c fw-light"
+            >
+              LINKS
+            </h5>
+            <ul class="list-unstyled mt-4">
+              <li data-aos="fade-up" data-aos-delay="200" class="mb-3">
+                <a href="About.html" class="text-light text-decoration-none">About Us</a>
+              </li>
+              <li data-aos="fade-up" data-aos-delay="300" class="mb-3">
+                <a href="Contact.html" class="text-light text-decoration-none">Contact</a>
+              </li>
+              <li data-aos="fade-up" data-aos-delay="400" class="mb-3">
+                <a href="https://wa.me/+8801790500666" class="text-light text-decoration-none"
+                  >Help Center</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="my-4" />
+        <div
+          class="footer-bottom d-flex justify-content-between flex-column flex-md-row pt-2 pb-5"
+        >
+          <div data-aos="fade-up">
+            <span
+              >Powered by
+                ><span class="text-secondary-color">10WKTS</span></a
+              ></span
+            >
+          </div>
+          <div data-aos="fade-up" data-aos-delay="200" class="mt-3 mt-lg-0">
+            <a
+              href="privacy.html"
+              class="text-secondary-color text-decoration-none me-2 mx-lg-2"
+              >Privacy Policy</a
+            >
+            <span>|</span>
+            <a href="condition.html" class="text-secondary-color text-decoration-none mx-2"
+              >Our Terms</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./dist/js/navbar.js"></script>
+    <script src="./dist/js/script.js"></script>
+  </body>
+</html>
